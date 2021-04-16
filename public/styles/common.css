@@ -1,0 +1,26 @@
+button[name="onModal"] {
+    position: fixed;
+    bottom: 60px;
+    right: 16px;
+    z-index: 1;
+}
+
+dt.flex {
+    display: flex;
+}
+
+dt.flex .flex-start {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+dt.flex .flex-end {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+p.board_description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
